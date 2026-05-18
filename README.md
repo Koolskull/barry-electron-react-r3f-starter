@@ -20,6 +20,29 @@ Building a working **Full Motion Video game in Three.js / React Three Fiber** is
 
 ---
 
+## How to use this repo
+
+There are three layers, in increasing depth:
+
+1. **The structured curriculum** in `lessons/` — six numbered lessons with chapters, code, hands-on tasks, and quizzes. Start here if you want a guided path. Track your progress in [`PROGRESS.md`](PROGRESS.md).
+2. **This README** — a single-page overview covering the same six topics. Faster to skim, less interactive. Good as a quick reference once you've done the curriculum.
+3. **The deep guides** — [`FMV-GUIDE.md`](FMV-GUIDE.md), [`GENESIS-EMU-GUIDE.md`](GENESIS-EMU-GUIDE.md), and [`SOUND-DESIGN-JUCE-BRIDGE.md`](SOUND-DESIGN-JUCE-BRIDGE.md). The full code, the edge cases, the production-grade versions. The lessons link into these for the details.
+
+The recommended path: skim this README to see the shape of the whole thing, then go to [`lessons/01-electron-foundations/`](lessons/01-electron-foundations/README.md) and work through one lesson at a time. The deep guides are reference material — open them when a lesson points you to them, not before.
+
+### Curriculum at a glance
+
+| # | Lesson | Time | Output |
+| - | --- | --- | --- |
+| 01 | [Electron Foundations](lessons/01-electron-foundations/README.md) | 2–3 hours | A desktop window running your React code, built to EXE |
+| 02 | [R3F Primer](lessons/02-r3f-primer/README.md) | 3–4 hours | A 3D scene with materials, lights, and post-processing |
+| 03 | [FMV in 3D](lessons/03-fmv-in-3d/README.md) | 4–6 hours | Video-as-texture FMV with branching scenes and CRT shader |
+| 04 | [Genesis ROM Integration](lessons/04-genesis-roms/README.md) | 4–6 hours | ROM header parser, tile decoder, 3D cartridge gallery |
+| 05 | [Sound Design (YM2612 → JUCE)](lessons/05-sound-design/README.md) | A weekend+ | A working VST3 FM synth in JUCE; a Web Audio version in Electron |
+| 06 | [Capstone Project](lessons/06-capstone-hybrid/README.md) | 1–4 weeks | A shippable hybrid project of your choice |
+
+---
+
 ## Table of contents
 
 1. [Quick start](#quick-start)
