@@ -1,0 +1,24 @@
+{
+  "name": "barry-electron-react-r3f-starter",
+  "version": "1.0.0",
+  "description": "Electron + React + R3F for Barry",
+  "main": "out/main.js",
+  "scripts": {
+    "dev": "electron-vite dev",
+    "build": "electron-vite build",
+    "make": "electron-forge make"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "three": "^0.169.0",
+    "@react-three/fiber": "^8.17.0",
+    "@react-three/drei": "^9.115.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "electron": "latest",
+    "electron-vite": "latest",
+    "vite": "^5.4.8"
+  }
+}
