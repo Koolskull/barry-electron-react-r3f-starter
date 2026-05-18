@@ -1,0 +1,28 @@
+node_modules/
+dist/
+out/
+build/
+.DS_Store
+*.log
+.env
+.env.local
+
+# Legally-owned Genesis ROMs — never commit
+# Only ignore inside public/roms/ so we don't accidentally swallow Markdown files
+public/roms/
+public/roms/**
+*.bin
+*.gen
+*.smd
+
+# Save states & screenshots
+public/savestates/
+
+# Build artifacts from native add-ons / JUCE
+*.vst3/
+*.component/
+*.app/
+
+# Editors
+.vscode/
+.idea/
